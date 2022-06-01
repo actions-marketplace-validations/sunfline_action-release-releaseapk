@@ -11,6 +11,9 @@ inputs:
   REPO_BRANCH:
     required: false
     description: "Github repository branch name."
+  PATH_TO_APK:
+    required: true
+    description: "Path to APK"
 runs:
   using: "docker"
   image: "Dockerfile"
